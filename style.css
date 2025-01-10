@@ -1,0 +1,53 @@
+body {
+    font-family: "Urbanist", serif;
+}
+
+.navbar {
+    background-color: #442913;
+}
+
+.nav-link,
+.nav-link:hover,
+.navbar-brand,
+.navbar-brand:hover {
+color: #E2D1C2;
+}
+
+.navbar-toggler {
+    background-color: #E2D1C2;
+}
+
+.section-title {
+    font-family: "Special Elite", serif;
+}
+
+.text-colored {
+    color: #442913;
+}
+
+.img-menu {
+    height: 300px; 
+    object-fit: cover;
+    width: 100%;
+}
+
+.social-links li {
+    display: inline;
+    list-style: none;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.nav-menu .nav-link.active,
+#contact button{
+    background-color: #442913;
+    color: #E2D1C2;
+}
+
+@media (min-width:768px) and (max-width: 1024px) {
+    .img-menu{
+        height: 300px;
+    }
+}

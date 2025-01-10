@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espresso & Co.</title>
+
+    <link rel="stylesheet" href="./libs/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p2" id="header">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Espresso & Co</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#home">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="home">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#about" class="nav-link">
+                            <i class="bi bi-cup-hot-fill"></i>
+                            Our Store
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#products" class="nav-link">
+                            <i class="bi bi-basket3"></i>
+                            Products
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#menu" class="nav-link">
+                            <i class="bi bi-journal"></i>
+                            Menu
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#booking" class="nav-link">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Book here
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div data-bs-spy="scroll" data-bs-target="header" data-bs-smooth-scroll="true">
+        <section id="about">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slide/pagina1.png" alt="Slide 1" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slide/pagina2.png" alt="Slide 2" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slide/pagina3.png" alt="Slide 3" class="d-block w-100">
+                    </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+            </div>
+    </div>
+
+    <div class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./images/store.webp" class="d-block w-100 " alt="storefront">
+                </div>
+                <div id="about" class="col-md-6 mt-3 mt-md-0">
+                    <h2 class="section-title">About our Store</h2>
+                    <p>
+                    Welcome to Expresso & Co, where coffee is just the beginning. Alongside expertly brewed drinks and delicious bites, we offer premium coffee beans and accessories to elevate your home brewing experience. Explore our curated selection of gadgets, from grinders to brewing tools, designed for coffee lovers. Whether you’re here for a cozy cup or to stock up on essentials, we’re your destination for all things coffee.
+                    </p>
+                    <ul>
+                        <li>Artisan Pastries – Freshly baked goods that pair perfectly with our coffee.</li>
+                        <li>Specialty Coffee Beans – Sourced from the finest farms, roasted to perfection for a flavorful brew.</li>
+                        <li>Brewing Gadgets – High-quality grinders, pour-over kits, and French presses to craft the perfect cup.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="products" class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <h2 class="section-title text-center">Our Products</h2>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <img src="./images/produtos2.webp" alt="coffee packs" class="d-block w-100 rounded mb-2">
+                <h3 class="section-title text-colored fs-4">Coffee Beans</h3>
+                <p>
+                    Our specialty coffee beans are carefully sourced from some of the world's most renowned coffee-growing regions, including Ethiopia, Colombia, and Brazil. Each batch is handpicked to ensure only the highest-quality beans make it to your cup.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="./images/brunch.webp" alt="brunch table" class="d-block w-100 rounded mb-2">
+                <h3 class="section-title text-colored fs-4">Brunch</h3>
+                <p>
+                    Our brunch menu is designed to elevate your mornings. From fluffy pancakes and buttery croissants to hearty avocado toasts and flavorful quiches, every dish is freshly prepared to satisfy your cravings. Whether you're in the mood for a light bite or a more indulgent meal, our brunch options pair beautifully with our handcrafted coffees and specialty drinks, making it the ideal way to start your day.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="./images/pastries.webp" alt="croissant" class="d-block w-100 rounded mb-2">
+                <h3 class="section-title text-colored fs-4">Pastries</h3>
+                <p>
+                    Our pastries are crafted fresh daily, offering a delightful selection of sweet and savory treats to complement your coffee experience. From flaky croissants and rich chocolate-filled delights to buttery scones and indulgent tarts, every bite is a testament to quality and flavor.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="pt-5 pb-5" id="menu">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Our Brunch Selection</h2>
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-collumn nav-menu">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#coffee" class="fw-bold text-start nav-link text-colored active">Our Coffees</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#cold-drinks" class="fw-bold text-start nav-link text-colored">Cold Drinks</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#pastries" class="fw-bold text-start nav-link text-colored">Pastries</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#brunch-menu" class="fw-bold text-start nav-link text-colored">Brunch Selection</button>
+                    </nav>
+                </aside>
+
+                <div class="col-md-10">
+                    <div class="tab-content">
+
+                        <div class="tab-pane show active" id="coffee">
+                            <div class="row">
+                                <div class="col-md-6 col-xl-3">
+                                    <img class="d-block w-100 img-menu" src="./images/coffee.webp" alt="latte">
+                                    <h5 class="text-colored fw-bold mt-2">Latte</h5>
+                                </div>
+                                <div class="col-md-6 col-xl-3">
+                                    <img class="d-block w-100 img-menu" src="./images/americano2.webp" alt="black coffee">
+                                    <h5 class="text-colored fw-bold mt-2">Americano</h5>
+                                </div>
+                                <div class="col-md-6 col-xl-3">
+                                    <img class="d-block w-100 img-menu" src="./images/capuccino.webp" alt="capuccino">
+                                    <h5 class="text-colored fw-bold mt-2">Capuccino</h5>
+                                </div>
+                                <div class="col-md-6 col-xl-3">
+                                    <img class="d-block w-100 img-menu" src="./images/coffeepot.webp" alt="coffee pot">
+                                    <h5 class="text-colored fw-bold mt-2">Coffee Pot</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="cold-drinks">
+                            <div class="row">
+                                <div class="col-md-6 col-xl-3">
+                                    <img class="d-block w-100 img-menu" src="./images/iced.webp" alt="coffee and ice">
+                                    <h5 class="text-colored fw-bold mt-2">Iced Coffee</h5>
+                                </div>
+                                <div class="col-md-6 col-xl-3">
+                                    <img class="d-block w-100 img-menu" src="./images//icedtea.webp" alt="iced tea">
+                                    <h5 class="text-colored fw-bold mt-2">Iced Tea</h5>
+                                </div>
+                                <div class="col-md-6 col-xl-3">
+                                    <img class="d-block w-100 img-menu" src="./images/limetea.webp" alt="lemonade">
+                                    <h5 class="text-colored fw-bold mt-2">Mint Lemonade</h5>
+                                </div>
+                                <div class="col-md-6 col-xl-3">
+                                    <img class="d-block w-100 img-menu" src="./images/peachtea.webp" alt="tea jar">
+                                    <h5 class="text-colored fw-bold mt-2">Peach Tea Jar</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="pastries">
+                            <div class="row">
+                                <div class="col-md-6 col-xl-3">
+                                    <img class="d-block w-100 img-menu" src="./images/cake.webp" alt="red cake">
+                                    <h5 class="text-colored fw-bold mt-2">Red Velvet Cake</h5>
+                                </div>
+                                <div class="col-md-6 col-xl-3">
+                                    <img class="d-block w-100 img-menu" src="./images/cake2.jpeg" alt="Chocolate cake">
+                                    <h5 class="text-colored fw-bold mt-2">Chocolate Cake</h5>
+                                </div>
+                                <div class="col-md-6 col-xl-3">
+                                    <img class="d-block w-100 img-menu" src="./images/food1.webp" alt="croissants">
+                                    <h5 class="text-colored fw-bold mt-2">Butter Pastries</h5>
+                                </div>
+                                <div class="col-md-6 col-xl-3">
+                                    <img class="d-block w-100 img-menu" src="./images/brownie.webp" alt="tower of brownies">
+                                    <h5 class="text-colored fw-bold mt-2">Almond Brownie</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="brunch-menu">
+                            <div class="row">
+                                <div class="col-md-6 col-xl-3">
+                                    <img class="d-block w-100 img-menu" src="./images/toast1.webp" alt="toast1">
+                                    <h5 class="text-colored fw-bold mt-2">Caprese Toast</h5>
+                                </div>
+                                <div class="col-md-6 col-xl-3">
+                                    <img class="d-block w-100 img-menu" src="./images/toast 2.webp" alt="toast2">
+                                    <h5 class="text-colored fw-bold mt-2">Avo Toast</h5>
+                                </div>
+                                <div class="col-md-6 col-xl-3">
+                                    <img class="d-block w-100 img-menu" src="./images/toast3.webp" alt="toast3">
+                                    <h5 class="text-colored fw-bold mt-2">Full Breakfeast</h5>
+                                </div>
+                                <div class="col-md-6 col-xl-3">
+                                    <img class="d-block w-100 img-menu" src="./images/waffle.webp" alt="waffle">
+                                    <h5 class="text-colored fw-bold mt-2">Waffles</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">
+                    Book your table
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label fw-bold text-colored">Your name</label>
+                            <input type="text" id="name" class="form-control"placeholder="Full Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Your E-mail</label>
+                            <input type="email" id="email" class="form-control"placeholder="Valid E-mail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="guests" class="form-label fw-bold text-colored">Number of Guests</label>
+                            <input type="number" class="form-control" id="guests" placeholder="Number of guests" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="date" class="form-label fw-bold text-colored">Reservation Date</label>
+                            <input type="date" class="form-control" id="date" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="time" class="form-label fw-bold text-colored">Reservation Time</label>
+                            <input type="time" class="form-control" id="time" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="requests" class="form-label">Special Requests</label>
+                            <textarea class="form-control" id="requests" rows="3" placeholder="Any special requests"></textarea>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn fw-bold">Reserve Now</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="row h-100 align-items-center text-end">
+                    <div class="col">
+                        <h3 class="section-title fs-4 text-colored mb-10">
+                            Our Socials
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Address</h3>
+                            <p>123 Coffee Lane, Brewtown, Java State, 56789</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./libs/bootstrap.bundle.min"></script>
+</body>
+</html>
